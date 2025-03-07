@@ -1,5 +1,3 @@
-# llm-tools
-testing experimenting llm tools
 # Experiments with Memory for LLMs using LangChain and Persistence
 
 This repository contains a series of experiments exploring different memory management strategies for large language models (LLMs) built with LangChain. The focus is on how to persist conversation history between sessions, optimize token usage, and enhance conversational context. These experiments demonstrate various techniques—from storing the complete dialogue to applying sliding windows and summarization—to build more context-aware and persistent chatbot applications.
@@ -36,11 +34,6 @@ Below is a summary of the experiments included in this repository:
 - **`experiment_1_buffer_memory.py`**  
   Contains the implementation of full conversation persistence using `ConversationBufferMemory`.
 
-- **`experiment_2_window_memory.py`**  
-  Demonstrates using a sliding window memory with `ConversationBufferWindowMemory`.
-
-- **`experiment_3_summary_memory.py`**  
-  Implements conversation summarization using `ConversationSummaryMemory` (or a variant) along with persistence.
 
 - **`README.md`**  
   This file provides an overview of the experiments and usage instructions.
